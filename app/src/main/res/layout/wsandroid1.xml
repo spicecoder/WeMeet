@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#603434"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="404dp"
+        android:layout_height="150dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="WESTERN SYDNEY ANDROID TECHNOLOGY MEET"
+        android:id="@+id/textView"
+        android:textSize="@dimen/abc_text_size_medium_material"
+        android:elegantTextHeight="true"
+        android:background="#56c0c8"
+        android:autoText="false"
+        android:contentDescription="@string/abc_action_bar_home_description_format"
+        android:gravity="center_vertical|center"
+        android:textAlignment="@integer/abc_max_action_buttons"
+        android:textColor="#1a0202" />
+
+    <CalendarView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/calendar" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:text="Enter With Care"
+        android:id="@+id/go"
+        android:layout_weight="0.72" />
+</LinearLayout>

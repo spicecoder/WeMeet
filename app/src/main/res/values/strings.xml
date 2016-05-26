@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">WeMeet</string>
+    <string name="dev_name">Developers</string>
+    <string name="course_name">Coursers</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
