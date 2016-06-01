@@ -55,6 +55,9 @@ public class DevListActivity extends ActionBarActivity implements View.OnClickLi
     Firebase.setAndroidContext(this);
     myFirebaseRef = new Firebase("https://staywithme.firebaseio.com/wemeet" +
             "");
+    myFirebaseRef = new Firebase("https://staywithme.firebaseio.com/wemeet/location" +
+            "");
+    //project-3490948984451277209
     myFirebaseRef.addChildEventListener(childEventListener);
 
     save.setOnClickListener(this);
